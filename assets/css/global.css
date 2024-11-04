@@ -1,0 +1,36 @@
+:root {
+  --main-color: #00bf6f;
+  --text-color: #283630;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "work-sans-regular", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  -moz-osx-font-smoothing: grayscale;
+  /* Firefox */
+  -webkit-font-smoothing: antialiased;
+  /* WebKit  */
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
