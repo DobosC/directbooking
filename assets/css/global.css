@@ -23,10 +23,14 @@ body {
   padding: 0;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+a {
+  color: var(--main-color);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+p {
+  margin: 0;
 }
 
 .container {
