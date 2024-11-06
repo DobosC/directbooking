@@ -38,3 +38,7 @@ p {
   max-width: 1440px;
   margin: 0 auto;
 }
+
+.table > :not(caption) > * > * {
+  padding: 0;
+}
