@@ -1,0 +1,49 @@
+.offers {
+  position: relative;
+  padding: 0 20px;
+}
+
+.offer--large {
+  grid-column: 1 / -1;
+}
+
+.offers .offers__container {
+  max-width: 1146px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.offers .offers__container .offers__massonry {
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.offers .offers__container .offers__massonry .offer__image {
+  border-radius: 5px;
+}
+
+.offers .offers__container .offers__group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .offers .offers__container .offers__massonry {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .offers .offers__container .offers__group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .offer,
+  .offer__main {
+    width: 100%;
+  }
+}

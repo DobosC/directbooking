@@ -93,6 +93,37 @@
                 <img  class="divider__image" src="./assets/img/wave-divider.png" >
             </div>
        </section>
+
+       <section class="offers">
+            <div class="offers__container">
+                <div class="offers__massonry d-flex">
+                    <div class="offer__main">
+                        <a href="#">
+                            <img class="offer__image" src="./assets/img/offer-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="offers__group">
+                        <div class="offer offer--large">
+                            <a href="#">
+                                <img class="offer__image" src="./assets/img/offer-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="offer">
+                            <a href="#">
+                                <img class="offer__image" src="./assets/img/offer-3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="offer">
+                            <a href="#">
+                                <img class="offer__image" src="./assets/img/offer-4.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </section>
     </div>
+
+    
 </div>
 <?php include 'includes/footer.php'; ?>
